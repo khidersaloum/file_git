@@ -1,3 +1,42 @@
 body {
     height: 3000px;
+    background-color: #444141;
+}
+
+.grand {
+    background-color: #1f1e1e;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #492ad1;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.grand-father {
+    background-color: #362f47;
+    margin: 10px;
+    padding: 5px;
+    border: 0.50px solid #12b6c2;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.image {
+    text-align: center;
+    border: 1px solid #54799e;
+    border-radius: 5px;
+    margin: 10px 400px;
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+}
+
+.image:hover {
+    text-align: center;
+    border: 1px solid #365c83;
+    border-radius: 5px;
+    margin: 10px 400px;
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
 }
