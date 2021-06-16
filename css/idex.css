@@ -13,6 +13,7 @@ body {
 }
 
 .grand-father {
+    text-align: center;
     background-color: #362f47;
     margin: 10px;
     padding: 5px;
@@ -25,9 +26,9 @@ body {
     text-align: center;
     border: 1px solid #54799e;
     border-radius: 5px;
-    margin: 10px 400px;
     width: 250px;
     height: 250px;
+    margin-bottom: 20px;
     overflow: hidden;
 }
 
@@ -35,8 +36,24 @@ body {
     text-align: center;
     border: 1px solid #365c83;
     border-radius: 5px;
-    margin: 10px 400px;
     width: 250px;
     height: 250px;
+    margin-bottom: 20px;
     overflow: hidden;
+}
+
+.about {
+    text-align: center;
+    color: rgb(172, 236, 22);
+    text-decoration: none;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.about:hover {
+    text-align: center;
+    color: #7fb10c;
+    text-decoration: underline;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
 }
