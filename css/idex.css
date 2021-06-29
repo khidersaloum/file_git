@@ -136,8 +136,16 @@ body {
     overflow: hidden;
 }
 
+.child:hover {
+    visibility: visible;
+}
+
 .about {
-    text-align: center;
+    background: #483d61;
+    width: 400px;
+    border-left: 4px solid yellow;
+    padding: 10px;
+    margin: 20px;
     color: rgb(172, 236, 22);
     text-decoration: none;
     font-size: 40px;
@@ -145,9 +153,26 @@ body {
 }
 
 .about:hover {
-    text-align: center;
+    background-color: #3e3553;
+    width: 400px;
+    border-left: 4px solid rgb(223, 223, 2);
+    padding: 10px;
+    margin: 20px;
     color: #7fb10c;
     text-decoration: underline;
     font-size: 40px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.child p {
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 0.5px;
+    margin: 30px;
+    color: teal;
+}
+
+
+.in {
+    visibility: hidden;
 }
